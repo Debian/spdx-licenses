@@ -1,14 +1,54 @@
-[![Build Status](https://api.travis-ci.org/spdx/license-list-XML.svg?branch=master)](https://travis-ci.org/spdx/license-list-XML)
-# SPDX License List
-The [SPDX License List](https://spdx.org/licenses/) is a list of commonly found licenses and exceptions used in free and open source and other collaborative software or documentation. The purpose of the SPDX License List is to enable easy and efficient identification of such licenses and exceptions in an SPDX document, in source files or elsewhere. The SPDX License List includes a standardized short identifier, full name, vetted license text including matching guidelines markup as appropriate, and a canonical permanent URL for each license and exception.
+# License List Data
 
-# This Repository
-This repository contains the XML source and schema files used to generate the authoritative, supported SPDX list file formats, including the web pages you see at [spdx.org/licenses](https://spdx.org/licenses/) and other generated data formats found in the [SPDX license-list-data repository](https://github.com/spdx/license-list-data).
+See [the contributing document](CONTRIBUTING.md) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
 
-# How to contribute/participate
-We welcome contribution!  See [our contribution documentation](CONTRIBUTING.md) for details.
+## Data Formats
 
-# Consuming License Data from this Repository
-Output files in the [SPDX license-list-data repository](https://github.com/spdx/license-list-data) are generated from the XML source in this repository.  These output files are stable and well-supported, and make the License List available in RDFa, HTML, text, and JSON formats. You can use [SPDX tools](https://github.com/spdx/tools) (or create your own) to consume the supported formats of the license list.
+This repository contains various generated data formats for the [SPDX License List](http://spdx.org/licenses/) including RDFa, HTML, Text, and JSON. The source of the license list which generates these data files can be found at https://github.com/spdx/license-list-XML.  Please note that the format for the license-list-XML repository is internal to the SPDX legal team and is subject to change.
 
-Please note that the XML format for this repository is internal to the SPDX legal team and is subject to change, so any direct consumers of _this_ repository's source files should expect occasional, backwards-incompatible changes.
+See the file accessingLicenses.md for a description on how to programmatically access the SPDX license list.
+
+The following directories contain the license list in the format specified:
+
+* `html` - Simple HTML format of the files. (*Note:* These pages are not complete and valid HTML files, but simply HTML snippets for the license text.)
+* `json` - JSON format for the license list.  The exceptions.json file contains summary information for all exceptions.  The licenses.json file contains summary information for all licenses.  The exceptions directory contains one file per exception named by ID containing all exception details.  The license directory contains one file per license named by ID containing all license details.
+* `jsonld` - JSON-LD format for the license list.  The directory contains a file licenses.jsonld which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfa` - RDFa/HTML format for the license list.  The index.html file contains summary information for all licenses.  The exceptions-index.html file contains summary information for all exceptions.  The directory also contains well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfnt` - RDF NT format for the license list.  The directory contains a file licenses.nt which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfturtle` - RDF turtle format for the license list.  The directory contains a file licenses.turtle which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfxml` - RDF/XML format for the license list.  The directory contains a file licenses.rdf which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `template` - SPDX template files per the license templates specified in the SPDX 2.0 specification appendix.  Deprecated licenses start with "deprecated_".
+* `text` - Simple text files.  Deprecated licenses start with "deprecated_".
+* `website` - HTML generated for the http://spdx.org/ website.
+
+The file licenses.md is a table of contents for the generated licenses.  The links for the files point to the text for the license.
+
+## Repository Tags and Versions
+
+The repository is tagged with a version `vX.Y.Z` where `vX.Y` matches the version of the [SPDX License List](http://spdx.org/licenses/) and `Z` represents the patch level for any changes to the license list data between releases of the license list.  The repository is tagged whenever the [SPDX License List](http://spdx.org/licenses/) is updated.  Patches may include formatting changes which are not represented in the [license list source XML](https://github.com/spdx/license-list-XML).  
+
+## Reporting Issues
+
+As far as the output *format* or the *generation* of the output files is concerned, any [issues](https://github.com/spdx/LicenseListPublisher/issues) or [pull requests](https://github.com/spdx/LicenseListPublisher/pulls) should be logged at the [License LIst Publisher](http://github.com/spdx/LicenseListPublisher) project.
+
+As far as the *content* of the license information is concerned, see [the license-list-XML contributing document](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md) for information on how to report issues, request new licenses, or contribute changes.
+
+## License List Data Build Process
+
+The license list data in this repository is automatically built on commits to the master branch of the [license list source](https://github.com/spdx/license-list-XML) by the [Travis-ci script](https://github.com/spdx/license-list-XML/blob/master/.travis.yml).  The commit message generated by the script includes short form of the commit hash from the license list source.  If the license list source has been tagged for release, a tag will also be generated for the license-list-data repository.
+
+The script that publishes the license list data can be found in the .travis directory in the license list source.
+
+The script uses the SPDX tools LicenseRDFaGenerator command to generate the data files.
+
+Source code for the LicenseRDFaGenerator can be found in the [SPDX tools](http://github.com/spdx/tools) repository.  
+
+The main entrypoint for the command is [LicenseRDFaGenerator.java](https://github.com/spdx/LicenseListPublisher/blob/a29a0939a19522f9e3a3b1be6e5f4926c6368435/src/org/spdx/licenselistpublisher/LicenseRDFAGenerator.java#L122)
+
+The basic flow of the program is LicenseRDFaGenerator -> Translate XML to the license objects (including the license text) -> Translate the license into various output files (including the text and template files).
+
+The code that translates the license XML into the license template text is [LicenseXmlHelper.getLicenseTemplate](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L498) and the code that translates the license XML into text is [LicenseXmlHelper.getLicenseText](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L523).
+
+## Licensing Information
+
+Other than the README and related documentation, all data in this repository is generated.  The source of the data is the [license list XML Repository](https://github.com/spdx/license-list-XML).  [LicenseListPublisher](https://github.com/spdx/LicenseListPublisher) is the tool used to publish the data.  Please see the respective repositories for licensing information.
