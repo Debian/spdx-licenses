@@ -1,44 +1,28 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: spdx-license-list
+Upstream-Name: license-list-data
 Upstream-Contact: https://github.com/spdx/license-list-data/issues
 Source: https://github.com/spdx/license-list-data
 Files-Excluded: website
 
 Files: *
 Copyright: 2020 SPDX Workgroup
-License: public-domain
+           2016 Gary O'Neall <gary@sourceauditor.com>
+License: CC-BY-3.0
 
 Files: debian/*
 Copyright: 2020 Michael Lustfield <mtecknology@debian.org>
-License: Unlicense
+License: CC-BY-3.0
 
-License: public-domain
- The SPDX Workgroup does not provide a license for this repository.
- The only data they can claim copyright on is the website data, which
- has been excluded.
-
-License: Unlicense
- This is free and unencumbered software released into the public domain.
+License: CC-BY-3.0
+ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS
+ PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY COPYRIGHT AND/OR
+ OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORIZED UNDER THIS
+ LICENSE OR COPYRIGHT LAW IS PROHIBITED.
  .
- Anyone is free to copy, modify, publish, use, compile, sell, or
- distribute this software, either in source code form or as a compiled
- binary, for any purpose, commercial or non-commercial, and by any
- means.
+ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE
+ BOUND BY THE TERMS OF THIS LICENSE. TO THE EXTENT THIS LICENSE MAY BE CONSIDERED
+ TO BE A CONTRACT, THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN
+ CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.
  .
- In jurisdictions that recognize copyright laws, the author or authors
- of this software dedicate any and all copyright interest in the
- software to the public domain. We make this dedication for the benefit
- of the public at large and to the detriment of our heirs and
- successors. We intend this dedication to be an overt act of
- relinquishment in perpetuity of all present and future rights to this
- software under copyright law.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
- IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
- OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
- ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
- .
- For more information, please refer to <http://unlicense.org/>
+ On Debian systems where spxd-licenses is installed, full license
+ text is available at: /usr/share/spdx-licenses/CC-BY-3.0

@@ -1,4 +1,10 @@
-version=3
-opts=\
-filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/spdx-license-list_$1\.tar\.gz/,\
- https://github.com/spdx/license-list-data/releases .*/v?(\d\S*)\.tar\.gz
+# uscan(1) configuration file.
+version=4
+
+opts="\
+pgpmode=none,\
+repacksuffix=+dfsg,\
+repack,compression=xz,\
+dversionmangle=s{[~+](?:ds|dfsg)\d*$}{},\
+"  https://github.com/spdx/license-list-data/releases \
+   .*/archive/v?(\d[\d.]+)\.tar\.gz

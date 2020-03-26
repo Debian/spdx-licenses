@@ -1,5 +1,5 @@
-Source: spdx-license-text
-Section: TODO
+Source: spdx-licenses
+Section: doc
 Priority: optional
 Maintainer: Michael Lustfield <mtecknology@debian.org>
 Build-Depends: debhelper-compat (= 12)
@@ -7,11 +7,11 @@ Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/Debian/spdx-licenses
 Vcs-Git: https://github.com/Debian/spdx-licenses.git
 Homepage: https://github.com/spdx/license-list-data
-Testsuite: autopkgtest
 Rules-Requires-Root: no
 
-Package: spdx-license-text
+Package: spdx-licenses
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: Collection of license data provided by SPDX Workgroup
  SPDX License Text provides a collection of license data (text, meta, etc.)
