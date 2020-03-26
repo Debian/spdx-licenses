@@ -1,0 +1,5 @@
+spdx-license-list (3.8-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #955001)
+
+ -- Michael Lustfield <mtecknology@debian.org>  Thu, 26 Mar 2020 14:33:50 +0000
