@@ -1,0 +1,15 @@
+.DS_Store
+
+# Ignore all hidden files and directories
+# except .editorconfig, .gitattributes, .gitignore and .travis.yml
+.*
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/.travis.yml
+
+/resources
+/licenseListPublisher-*.jar*
+
+# nodeJS
+node_modules/
