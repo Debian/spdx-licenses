@@ -2,6 +2,5 @@
 spdx-licenses source: incomplete-creative-commons-license
 
 # spdx-licenses includes a verbatim copy of many license files; they do not apply to source
-spdx-licenses source: license-problem-gfdl-invariants
 spdx-licenses source: license-problem-json-evil
 spdx-licenses source: license-problem-php-license
