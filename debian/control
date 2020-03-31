@@ -14,7 +14,8 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: Collection of license data provided by SPDX Workgroup
- SPDX License Text provides a collection of license data (text, meta, etc.)
- assembled by SPDX Workgroup, a Linux Foundaition Project. This includes all
- of the most common licenses as well as many not-so-common and deprecated
- licenses.
+ SPDX Licenses provides a collection of license texts which were assembled
+ and provided by SPDX Workgroup, a Linux Foundaition Project. This package
+ makes most of these license texts available to Debian systems.
+ .
+ Note: License texts have NOT been evaluated against DFSG.
