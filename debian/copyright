@@ -15,55 +15,70 @@ License: CC-BY-3.0
 
 Files: text/0BSD
 Copyright: 2006 Rob Landley <rob@landley.net>
+License: none
 
 Files: text/Abstyles
 Copyright: 1991, 1992 Hans-Hermann Bode
+License: none
 
 Files: text/Adobe-*
        text/Afmparse
        text/APAFML
 Copyright: 1997-2007 Adobe Systems Inc.
+License: none
 
 Files: text/ADSL
 Copyright: 2006 Amazon Digital Services, Inc.
+License: none
 
 Files: text/AFL-*
 Copyright: 2002-2004 Lawrence E. Rosen
+License: none
 
 Files: text/Aladdin
 Copyright: 1994-1999 Aladdin Enterprises
+License: none
 
 Files: text/AMDPLPA
 Copyright: 2006, 2007 Advanced Micro Devices, Inc.
+License: none
 
 Files: text/AML
        text/APSL-*
 Copyright: 2006 Apple Computer, Inc.
+License: none
 
 Files: text/AMPAS
 Copyright: 2006 Academy of Motion Picture Arts and Sciences
+License: none
 
 Files: text/Apache-*
        text/ECL-*
        text/SHL-*
 Copyright: 1995-1999 The Apache Group
            2000-2004 The Apache Software Foundation
+License: none
 
 Files: text/Artistic-*
        text/ClArtistic
 Copyright: 2000-2006, The Perl Foundation
+License: none
 
 Files: text/Bahyph
 Copyright: 1991 GMV
+License: none
 
 Files: text/BitTorrent-*
 Copyright: Jabber.Com, Inc.
+License: none
 
 Files: text/BlueOak-1.0.0
 Copyright: Blue Oak Council
+License: none
 
 Files: text/Borceux
 Copyright: 1993 Francis Borceux
+License: none
 
 Files: text/BSD-*
        text/Linux-OpenIB
@@ -73,113 +88,147 @@ Copyright: 1998 Regents of the University of California
            2008 The NetBSD Foundation
            1994-2009 Sun Microsystems, Inc.
            2011 Deusty, LLC
+License: none
 
 Files: text/BSL-*
 Copyright: 2003 Boost Software
+License: none
 
 Files: text/bzip2-*
 Copyright: 1996-2010 Julian Seward
+License: none
 
 Files: text/Caldera
 Copyright: Caldera International, Inc.
+License: none
 
 Files: text/CATOSL
 Copyright: Computer Associates International, Inc.
+License: none
 
 Files: text/CC-*
-        text/CC0-1.0
+       text/CC0-1.0
 Copyright: Creative Commons
            International Creative Commons Corporation
+License: none
 
 Files: text/CDDL-*
 Copyright: 2012 Sun Microsystems
            1998-2012 Mozilla Foundation
+License: none
 
 Files: text/CDLA-*
 Copyright: The Linux Foundation
+License: none
 
 Files: text/CECILL-*
 Copyright: 2013 Atomic Energy Commission
+License: none
 
 Files: text/CERN-OHL-*
 Copyright: 2011-2013 CERN, Geneva, Switzerland
+License: none
 
 Files: text/CNRI-*
        text/eGenix
 Copyright: 1995-2006 Corporation for National Research Initiatives
+License: none
 
 Files: text/Condor-1.1
-Copyright: 1990-2006 Condor Team, Computer Sciences Department, University of Wisconsin-Madison, Madison, WI.
+Copyright: 1990-2006 Condor Team, Computer Sciences Department, University of Wisconsin
+License: none
 
 Files: text/CPAL-1.0
 Copyright: 2007 Open Source Initiative
+License: none
 
 Files: text/CPL-1.0
 Copyright: 2001 International Business Machines Corporation
+License: none
 
 Files: text/CPOL-1.02
 Copyright: 2008 The Code Project
+License: none
 
 Files: text/CUA-OPL-1.0
 Copyright: Credit Union Australia
+License: none
 
 Files: text/Cube
 Copyright: 2001-2003 Wouter van Oortmerssen
+License: none
 
 Files: text/curl
 Copyright: 1996-2015 Daniel Stenberg <daniel@haxx.se>
+License: none
 
 Files: text/D-FSL-1.0
 Copyright: 2004 Ministry of Science and Research North Rhine-Westphalia
            2004 Institute for Legal Questions of the Free and Open Source Software
+License: none
 
 Files: text/Dotseqn
 Copyright: 1995 Donald Arseneau
+License: none
 
 Files: text/DSDP
 Copyright: 2004 University of Chicago
+License: none
 
 Files: text/EFL-*
 Copyright: 2002 NICE
+License: none
 
 Files: text/Entessa
 Copyright: 2003 Entessa, LLC
+License: none
 
 Files: text/EPL-*
 Copyright: 2017 Eclipse Foundation
+License: none
 
 Files: text/etalab-2.0
 Copyright: 2017 Etalab
+License: none
 
 Files: text/EUDatagrid
 Copyright: 2001 EU DataGrid
+License: none
 
 Files: text/EUPL-*
 Copyright: 2007 European Community
+License: none
 
 Files: text/Eurosym
 Copyright: 1999-2002 Henrik Theiling
+License: none
 
 Files: text/Frameworx-1.0
 Copyright: The Frameworx Company
+License: none
 
 Files: text/FTL
 Copyright: 1996-2006 David Turner
            1996-2006 Robert Wilhelm
            1996-2006 Werner Lemberg
+License: none
 
 Files: text/Giftware
 Copyright: 1998 Shawn Hargreaves
+License: none
 
 Files: text/GL2PS
 Copyright: 2003, Christophe Geuzaine
+License: none
 
 Files: text/Glulxe
 Copyright: 1999-2010 Andrew Plotkin
+License: none
 
 Files: text/gnuplot
 Copyright: 1986-2004 Thomas Williams
            1986-2004 Colin Kelley
+License: none
 
 Files: text/GPL-*
        text/AGPL-*
@@ -191,68 +240,86 @@ Files: text/GPL-*
        text/LGPLLR
 Copyright: 1989-2012 Free Software Foundation, Inc.
            2002 Affero Inc.
+License: none
 
 Files: text/HaskellReport
 Copyright: 2010 Simon Marlow
+License: none
 
 Files: text/HPND*
 Copyright: 2002 Bruce Dodson
+License: none
 
 Files: text/IBM*
        text/IPL-1.0
 Copyright: 2002 IBM Corporation
+License: none
 
 Files: text/ICU
 Copyright: 1995-2014 International Business Machines
 
 Files: text/IJG
 Copyright: 1991-1998 Thomas G. Lane
+License: none
 
 Files: text/ImageMagick
 Copyright: ImageMagick Studio LLC
+License: none
 
 Files: text/iMatix
 Copyright: 1991-2000 iMatix Corporation
+License: none
 
 Files: text/Imlib2
 Copyright: 1988 Enlightenment.org
+License: none
 
 Files: text/Info-ZIP
 Copyright: 1990-2009 Info-ZIP
+License: none
 
 Files: text/Intel*
 Copyright: 1999-2005, Intel Corp.
+License: none
 
 Files: text/IPA
 Copyright: Information-technology Promotion Agency
+License: none
 
 Files: text/ISC
 Copyright: 1995-2003 Internet Software Consortium
+License: none
 
 Files: text/JasPer-2.0
 Copyright: 1995-2003 by Internet Software Consortium
            1999-2000 Image Power, Inc.
 	   1999-2000 The University of British Columbia
+License: none
 
 Files: text/JPNIC
 Copyright: 2000-2002 Japan Network Information Center
+License: none
 
 Files: text/JSON
 Copyright: 2002 JSON.org
+License: none
 
 Files: text/LAL-*
 Copyright: 2007 Copyleft Attitude
+License: none
 
 Files: text/Latex2e
 Copyright: 2007-2010 Karl Berry
            1988-2007 Stephen Gilmore
 	   1994-1996 Torsten Martinsen
+License: none
 
 Files: text/Leptonica
 Copyright: 2001 Leptonica
 
 Files: text/Libpng
 Copyright: 2004-2010 Glenn Randers-Pehrson
+License: none
 
 Files: text/libpng-2.0
 Copyright: 1995-2018 The PNG Reference Library Authors
@@ -260,6 +327,7 @@ Copyright: 1995-2018 The PNG Reference Library Authors
 	   2000-2018 Glenn Randers-Pehrson
 	   1996-1997 Andreas Dilger
 	   1995-1996 Guy Eric Schalnat, Group 42, Inc.
+License: none
 
 Files: text/libselinux-1.0
 Copyright: National Security Agency
@@ -267,219 +335,281 @@ Copyright: National Security Agency
 Files: text/libtiff
 Copyright: 1988-1997 Sam Leffler
            1991-1997 Silicon Graphics, Inc.
+License: none
 
 Files: text/LiLiQ-*
 Copyright: Centre de services partagés du Québec
+License: none
 Comment: https://forge.gouv.qc.ca/licence/
 
 Files: text/Linux-syscall-note.txt
 Copyright: Linux Torvalds
+License: none
 Comment: "system calls are normal use of the kernel; not derived work"
 
 Files: text/LPL-*
 Copyright: Lucent Technologies Inc.
+License: none
 
 Files: text/LPPL-*
 Copyright: 1999-2008 LaTeX3 Project
+License: none
 
 Files: text/MakeIndex
 Copyright: 1989 Chen & Harrison International Systems, Inc.
            1988 Olivetti Research Center
 	   1987 Regents of the University of California
+License: none
 
 Files: text/MIT*
        text/MirOS
 Copyright: 1988 Massachusetts Institute of Technology
+License: none
 
 Files: text/MIT-advertising.txt
 Copyright: 2000-2008 Carsten Haitzler, Geoff Harrison
            2004-2008 Kim Woelders
+License: none
 
 Files: text/mpich2
 Copyright: 2002 University of Chicago
+License: none
 
 Files: text/MPL-*
        text/gSOAP-1.3b
        text/OSET-PL-2.1
 Copyright: 1998-2012 Mozilla Foundation
+License: none
 Comment: MPL versions 1.0 and 1.1 are incompatible with the GPL
 
 Files: text/MS-*
 Copyright: 2001 Microsoft Corporation
+License: none
 
 Files: text/MTLL
 Copyright: 2007-2008 The Trustees of Indiana University.
            2008 Dresden University of Technology
 	   2010 SimuNova UG
+License: none
 
 Files: text/MulanPSL-1.0
 Copyright: August 2019 COSCL
+License: none
 Comment: http://license.coscl.org.cn/MulanPSL
 
 Files: text/Multics
 Copyright: 2006 BULL HN Information Systems Inc.
            2006 Bull SAS
+License: none
 
 Files: text/Mup
 Copyright: 1995-2012 by Arkkra Enterprises
+License: none
 
 Files: text/NASA-1.3
 Copyright: 2011 United States National Aeronautics and Space Administration
+License: none
 Comment: Also known as: NASA Open Source Agreement (NOSA)
          WARNING: Strict interpretation of clause 'G' /may/ violate DFSG
 
 Files: text/Naumen
 Copyright: NAUMEN
+License: none
 
 Files: text/NBPL-1.0
 Copyright: 1998 Net Boolean Incorporated
+License: none
 
 Files: text/NCSA
 Copyright: 2002 University of Illinois
+License: none
 Comment: Also known as: UIUC
 
 Files: text/Net-SNMP
 Copyright: 1989-1992 by Carnegie Mellon University
            1998-2000 The Regents of the University of California
+License: none
 
 Files: text/NetCDF
 Copyright: 1993-2014 University Corporation for Atmospheric Research/Unidata
+License: none
 
 Files: text/Newsletr
 Copyright: 1989-2004 by Hunter Goatley
+License: none
 
 Files: text/NGPL
 Copyright: 1989 M. Stephenson
            1988 Richard M. Stallman
+License: none
 
 Files: text/NLOD-1.0
 Copyright: Norwegian Government
+License: none
 Comment: Translation from "Norsk lisens for offentlige data"
 
 Files: text/NLPL
 Copyright: 2012 Gilles LAMIRAL
+License: none
 
 Files: text/Nokia
 Copyright: 2011 Nokia
+License: none
 Comment: Also known as: Nokia Open Source License (NOKOS)
          This is likely incompatible with GPL
 
 Files: text/Noweb
 Copyright: 1989-2000 by Norman Ramsey.
+License: none
 
 Files: text/NPL-*
 Copyright: Netscape Communications Corporation
+License: none
 
 Files: text/NPOSL-3.0
 Copyright: Lawrence Rosen
+License: none
 Comment: Version 1.1 is incompatible with DFSG
 
 Files: text/NRL
 Copyright: US Naval Research Laboratory
            1998 Regents of the University of California
+License: none
 
 Files: text/NTP*
 Copyright: 1992-2015 University of Delaware
            2011-2015 Network Time Foundation
+License: none
 
 Files: text/OCCT-PL
 Copyright: 2013 Open CASCADE Technology
+License: none
 
 Files: text/OCLC-2.0
 Copyright: 2002. OCLC Online Computer Library Center, Inc.
+License: none
 
 Files: text/ODbL-1.0
        text/ODC-By-1.0
        text/PDDL-1.0
 Copyright: Open Data Commons
+License: none
 
 Files: text/OFL-*
 Copyright: 2005-2007 SIL International
+License: none
 
 Files: text/OGL-Canada-*
 Copyright: Canada Government
+License: none
 
 Files: text/OGL-UK-*
 Copyright: United Kingdom Government
+License: none
 
 Files: text/OGTSL
 Copyright: Tidelift, Inc.
+License: none
 
 Files: text/OLDAP-*
 Copyright: 1998-2003, The OpenLDAP Foundation
+License: none
 
 Files: text/OML
 Copyright: Open Market, Inc.
+License: none
 
 Files: text/OpenSSL
 Copyright: 1998-2008 The OpenSSL Project
+License: none
 
 Files: text/OPL-1.0
 Copyright: 1999 Open Content Project
+License: none
 
 Files: text/OSL-*
 Copyright: 2005 Lawrence Rosen
            2005 Open Source Initiative
+License: none
 
 Files: text/PHP-*
 Copyright: 1999-2012 The PHP Group
+License: none
 
 Files: text/Plexus
 Copyright: 2002 The Codehaus
+License: none
 
 Files: text/PostgreSQL
 Copyright: 1994 The Regents of the University of California
            1996-2010 The PostgreSQL Global Development Group
+License: none
 
 Files: text/PSF-2.0
        text/Python-2.0
 Copyright: Python Software Foundation
+License: none
 
 Files: text/psfrag
 Copyright: 1996 Craig Barratt, Michael C. Grant, and David Carlisle
+License: none
 
 Files: text/psutils
 Copyright: 1991-1995 Angus J. C. Duggan.
+License: none
 
 Files: text/Qhull
 Copyright: 1993-2003 The Geometry Center of the University of Minnesota
+License: none
 
 Files: text/QPL-1.0
 Copyright: 1999-2005 Trolltech AS, Norway.
+License: none
 
 Files: text/Rdisc
 Copyright: Sun Microsystems, Inc.
+License: none
 
 Files: text/RHeCos-1.1
 Copyright: Red Hat, Inc.
+License: none
 
 Files: text/RPL-*
        text/RPSL-1.0
 Copyright: 2001-2007 Technical Pursuit Inc.
+License: none
 
 Files: text/RSA-MD
 Copyright: 1991 RSA Data Security, Inc.
+License: none
 
 Files: text/RSCPL
 Copyright: 1995-1999 Ricoh Silicon Valley, Inc.
+License: none
 
 Files: text/Ruby
 Copyright: 1995 Yukihiro Matsumoto
+License: none
 
 Files: text/SAX-PD
 Copyright: 2000 Megginson Technologies Ltd.
+License: none
 
 Files: text/Saxpath
 Copyright: 2000-2002 Werken Digital
+License: none
 
 Files: text/SCEA
 Copyright: South Carolina Education Association
+License: none
 
 Files: text/Sendmail*
 Copyright: 1988, 1993 The Regents of the University of California.
+License: none
 
 Files: text/SGI-*
 Copyright: 2000 Silicon Graphics, Inc.
+License: none
 
 Files: text/SimPL-2.0
 Copyright: Analysis and Solutions Company
@@ -489,113 +619,148 @@ License: SimPL-2.0
 
 Files: text/SISSL*
 Copyright: Sun Industry
+License: none
 
 Files: text/Sleepycat
 Copyright: 1990-1999 Sleepycat Software.
+License: none
 
 Files: text/SMLNJ
 Copyright: 2001-2011 by The Fellowship of SML/NJ
            1989-2001 by Lucent Technologies
+License: none
 
 Files: text/SMPPL
 Copyright: 1997-2002 National Security Agency
+License: none
 
 Files: text/SNIA
 Copyright: Storage Networking Industry Association
+License: none
 
 Files: text/SPL-1.0
 Copyright: Sun Microsystems, Inc.
+License: none
 
 Files: text/SSH-OpenSSH
 Copyright: 1995 Tatu Ylonen
+License: none
 
 Files: text/SSPL-1.0
 Copyright: 2018 MongoDB, Inc.
+License: none
 
 Files: text/SWL
 Copyright: 2017 Cisco Systems, Inc.
+License: none
 
 Files: text/TAPR-OHL-1.0
 Copyright: 2007 TAPR
+License: none
 
 Files: text/TCP-wrappers
 Copyright: 1990-1995 Wietse Venema
+License: none
 
 Files: text/TMate
 Copyright: 2004-2012 TMate Software.
+License: none
 
 Files: text/TORQUE-1.1
 Copyright: 2010-2011 Adaptive Computing Enterprises
+License: none
 
 Files: text/TOSL
 Copyright: 2006 Mike Mintz
            2006 Robert Ekendahl
+License: none
 
 Files: text/TU-Berlin-*
 Copyright: 1992-1994 Jutta Degener
            1992-1994 Carsten Bormann
+License: none
 
 Files: text/UCL-1.0
 Copyright: 2005 Lawrence Rosen
            2017 Nigel Tzeng
+License: none
 
 Files: text/Unicode-DFS-*
 Copyright: 1991-2016 Unicode, Inc.
+License: none
 
 Files: text/Unlicense
 Copyright: 2010 Unlicense
+License: none
 
 Files: text/UPL-1.0
 Copyright: 2015 Oracle Corporation
+License: none
 
 Files: text/Vim
 Copyright: 1991 Bram Moolenaar
+License: none
 
 Files: text/VOSTROM
 Copyright: 2007 VOSTROM Holdings
+License: none
 
 Files: text/VSL-1.0
 Copyright: 2000 Vovida Networks, Inc.
+License: none
 
 Files: text/W3C*
 Copyright: 1994-2002 World Wide Web Consortium
+License: none
 
 Files: text/Wsuipa
 Copyright: 2008 Clea F. Rees
+License: none
 
 Files: text/WTFPL
 Copyright: 2004 Sam Hocevar
+License: none
 
 Files: text/X11
 Copyright: 1996 X Consortium
+License: none
 
 Files: text/Xerox
 Copyright: 1995, 1996 Xerox Corporation
+License: none
 
 Files: text/XFree86-1.1
 Copyright: 1994-2006 The XFree86 Project, Inc.
+License: none
 
 Files: text/xinetd
 Copyright: 1992 Panagiotis Tsirigotis
+License: none
 
 Files: text/Xnet
 Copyright: 2000-2001 X.Net, Inc.
+License: none
 
 Files: text/xpp
 Copyright: 2002 The Trustees of Indiana University
+License: none
 
 Files: text/Zed
 Copyright: 1995 Jim Davies
+License: none
 
 Files: text/Zend-2.0
 Copyright: 1999-2002 Zend Technologies Ltd.
+License: none
 
 Files: text/Zlib*
 Copyright: 1995 Jean-loup Gailly
            1995 Mark Adler
+License: none
 
 Files: text/ZPL-*
 Copyright: Zope Corporation
+License: none
 
 License: CC-BY-3.0
  THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS
@@ -610,3 +775,9 @@ License: CC-BY-3.0
  .
  On Debian systems where spxd-licenses is installed, full license
  text is available at: /usr/share/spdx-licenses/CC-BY-3.0
+
+License: none
+ Typically, license texts are _not_ licensed under their own license terms.
+ When a license requires that you distribute a copy of the license terms
+ (most of the FOSS ones do), then they are granting (implicitly) permission
+ to distribute that license text.
