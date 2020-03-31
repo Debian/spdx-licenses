@@ -293,7 +293,7 @@ License: none
 Files: text/JasPer-2.0
 Copyright: 1995-2003 by Internet Software Consortium
            1999-2000 Image Power, Inc.
-	   1999-2000 The University of British Columbia
+           1999-2000 The University of British Columbia
 License: none
 
 Files: text/JPNIC
@@ -311,7 +311,7 @@ License: none
 Files: text/Latex2e
 Copyright: 2007-2010 Karl Berry
            1988-2007 Stephen Gilmore
-	   1994-1996 Torsten Martinsen
+           1994-1996 Torsten Martinsen
 License: none
 
 Files: text/Leptonica
@@ -324,9 +324,9 @@ License: none
 Files: text/libpng-2.0
 Copyright: 1995-2018 The PNG Reference Library Authors
            2018 Cosmin Truta
-	   2000-2018 Glenn Randers-Pehrson
-	   1996-1997 Andreas Dilger
-	   1995-1996 Guy Eric Schalnat, Group 42, Inc.
+           2000-2018 Glenn Randers-Pehrson
+           1996-1997 Andreas Dilger
+           1995-1996 Guy Eric Schalnat, Group 42, Inc.
 License: none
 
 Files: text/libselinux-1.0
@@ -358,7 +358,7 @@ License: none
 Files: text/MakeIndex
 Copyright: 1989 Chen & Harrison International Systems, Inc.
            1988 Olivetti Research Center
-	   1987 Regents of the University of California
+           1987 Regents of the University of California
 License: none
 
 Files: text/MIT*
@@ -389,7 +389,7 @@ License: none
 Files: text/MTLL
 Copyright: 2007-2008 The Trustees of Indiana University.
            2008 Dresden University of Technology
-	   2010 SimuNova UG
+           2010 SimuNova UG
 License: none
 
 Files: text/MulanPSL-1.0
