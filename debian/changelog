@@ -1,0 +1,5 @@
+spdx-licenses (3.8+dfsg-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #955001)
+
+ -- Michael Lustfield <mtecknology@debian.org>  Thu, 26 Mar 2020 18:07:21 +0000
